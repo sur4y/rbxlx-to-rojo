@@ -132,7 +132,7 @@ fn routine() -> Result<(), Problem> {
     let root = PathBuf::from(match std::env::args().nth(2) {
         Some(text) => text,
         None => FileDialog::new()
-            .set_directory(".")
+            .set_directory(&file_path)
             .pick_folder()
             .unwrap()
             .to_str()
