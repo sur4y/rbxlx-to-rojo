@@ -1,3 +1,5 @@
+## Important: This tool was not working on my Apple Silicon machine, so I simply replaced the file-picker library for an up-to-date one. I may have broken important error handlers. I haven't tested this on Windows. At least it works. For me. I cannot guarantee that it'll work for you.
+
 # rbxlx-to-rojo (now supports .rbxl!)
 Tool to convert existing Roblox games into Rojo projects by reading their `rbxl` or `rbxlx` place files.
 
